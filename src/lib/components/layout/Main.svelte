@@ -2,10 +2,9 @@
 import About from "../about/About.svelte";
 </script>
 
-<main class="flex flex-col flex-1 p-4">
   <section
     id="introPage"
-    class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-10 sm:py-14 items-center"
+    class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-10 sm:py-14 items-center" style="height: 100vh;"
   >
     <div
       class="flex flex-col justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
@@ -40,4 +39,3 @@ import About from "../about/About.svelte";
     </div> -->
   </section>
   <About />
-</main>
