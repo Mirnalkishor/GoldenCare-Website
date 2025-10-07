@@ -1,7 +1,7 @@
 <script lang="ts">
   import { writable } from "svelte/store";
-  import Header from "../components/layout/Header.svelte";
-  import Footer from "../components/layout/Footer.svelte";
+  import Header from "../lib/components/layout/Header.svelte";
+  import Footer from "../lib/components/layout/Footer.svelte";
   import { onMount } from "svelte";
 
   import "../app.css";
@@ -16,7 +16,7 @@
 
   onMount(() => {
     const unsubscribe = scrollY.subscribe((y) => {
-      showScrollTop = y > 300;
+      showScrollTop = y > 0;
     });
     return unsubscribe;
   });
@@ -28,7 +28,7 @@
     <slot />
   </main>
   <Footer />
-
+  
   {#if showScrollTop}
     <button
       on:click={scrollToTop}
