@@ -22,20 +22,20 @@
   });
 </script>
 
-<div class="flex flex-col min-h-screen relative bg-transparent text-white">
+<div class="flex flex-col min-h-screen relative bg-white text-white">
   <Header />
-  <main class="flex-1 container max-w-[1400px] mx-auto w-full text-sm sm:text-base px-4 sm:px-8 pt-20">
+  <main class="flex-1 w-full pt-20"> 
     <slot />
   </main>
   <Footer />
   
   {#if showScrollTop}
     <button
+      class="fixed bottom-6 right-6 bg-blue-500 text-black px-4 py-2 rounded shadow-lg hover:bg-blue-600 transition"
       on:click={scrollToTop}
-      class="fixed bottom-6 right-6 z-[50] bg-violet-500 hover:bg-violet-600 text-white w-10 h-10 rounded-full shadow-lg grid place-items-center transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-violet-300"
       aria-label="Scroll to top"
     >
-      <i class="fa-solid fa-arrow-up"></i>
+      ↑ Top
     </button>
   {/if}
 </div>

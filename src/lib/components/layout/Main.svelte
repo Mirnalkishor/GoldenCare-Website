@@ -1,41 +1,36 @@
 <script lang="ts">
 import About from "../about/About.svelte";
+import Services from "../services/Services.svelte";
 </script>
 
-  <section
+<section
     id="introPage"
-    class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-10 sm:py-14 items-center" style="height: 100vh;"
-  >
-    <div
-      class="flex flex-col justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
+    class="flex flex-col items-center justify-center text-center py-20 md:py-32 text-white" 
+    style="height: calc(100vh - 80px);" 
     >
-      <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl leading-tight">
-        <span class="font-poppins text-violet-400">
-          Your Golden Years, Our Golden Care
-        </span>
-      </h2>
+    <div class="max-w-4xl mx-auto">
+        <h2 class="text-2xl font-medium text-blue-600 mb-4">
+            Your Golden Years, Our Golden Care
+        </h2>
 
-      <p class="text-slate-300 text-base sm:text-lg max-w-xl mx-auto lg:mx-0">
-        Compassionate, professional, and personalized home care services —
-        because you deserve comfort and dignity in every moment.
-      </p>
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-black mb-6 leading-tight">
+            Your Trusted Companion for Every Step of the Journey
+        </h1>
 
-      <div class="flex justify-center lg:justify-start mt-4">
-        <a
-          href="#services"
-          class="bg-violet-600 hover:bg-violet-700 text-white px-6 py-3 rounded-full font-medium transition-colors duration-300"
-        >
-          Explore Our Services
-        </a>
-      </div>
+        <p class="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto mb-10">
+            Providing warm, reliable, and professional support for seniors in Punjab, Chandigarh, and Mohali.
+        </p>
+
+        <div class="mt-4">
+            <a
+                href="#services"
+                class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-md font-semibold transition-colors duration-300 shadow-md"
+            >
+                Book a Service
+            </a>
+        </div>
     </div>
+</section>
 
-    <!-- <div class="flex justify-center lg:justify-end">
-      <img
-        src="/assets/images/elderly-care.svg"
-        alt="Elderly Care Illustration"
-        class="max-w-full h-auto"
-      />
-    </div> -->
-  </section>
-  <About />
+<About />
+<Services/>
