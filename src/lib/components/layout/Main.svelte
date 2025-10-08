@@ -2,6 +2,9 @@
 import About from "../about/About.svelte";
 import Services from "../services/Services.svelte";
 import Caregivers from "../caregivers/Caregivers.svelte";
+import Pricing from "../pricing/Pricing.svelte";
+import ValueProposition from "../ValueProposition/ValueProposition.svelte";
+import BookingForm from "../bookingForm/BookingForm.svelte";
 </script>
 
 <section
@@ -36,3 +39,6 @@ import Caregivers from "../caregivers/Caregivers.svelte";
 <About />
 <Services/>
 <Caregivers/>
+<ValueProposition/>
+<Pricing/>
+<BookingForm/>
