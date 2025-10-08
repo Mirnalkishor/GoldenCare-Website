@@ -31,9 +31,9 @@
             </div>
 
             <div class="lg:col-span-1">
-                <div class="p-8 bg-white rounded-lg shadow-xl text-center h-full flex flex-col justify-center"> 
+                <div class="p-8 bg-blue-100 rounded-lg shadow-2xl text-center h-full flex flex-col justify-center"> 
                     
-                    <div class="text-blue-600 mb-4">
+                    <div class="text-blue-600 mb-5">
                         <svg 
                             xmlns="http://www.w3.org/2000/svg" 
                             class="h-10 w-10 mx-auto" 

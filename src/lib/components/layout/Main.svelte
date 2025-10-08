@@ -5,7 +5,7 @@ import Services from "../services/Services.svelte";
 
 <section
     id="introPage"
-    class="flex flex-col items-center justify-center text-center py-20 md:py-32 text-white" 
+    class="flex flex-col items-center justify-center text-center py-20 md:py-32 text-white bg-gray-100" 
     style="height: calc(100vh - 80px);" 
     >
     <div class="max-w-4xl mx-auto">

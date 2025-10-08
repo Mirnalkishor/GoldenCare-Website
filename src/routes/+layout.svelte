@@ -22,7 +22,7 @@
   });
 </script>
 
-<div class="flex flex-col min-h-screen relative bg-white text-white">
+<div class="flex flex-col min-h-screen relative bg-gray-100 text-white">
   <Header />
   <main class="flex-1 w-full pt-20"> 
     <slot />
