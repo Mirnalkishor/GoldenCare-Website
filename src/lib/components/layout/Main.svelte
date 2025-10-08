@@ -1,6 +1,7 @@
 <script lang="ts">
 import About from "../about/About.svelte";
 import Services from "../services/Services.svelte";
+import Caregivers from "../caregivers/Caregivers.svelte";
 </script>
 
 <section
@@ -34,3 +35,4 @@ import Services from "../services/Services.svelte";
 
 <About />
 <Services/>
+<Caregivers/>
