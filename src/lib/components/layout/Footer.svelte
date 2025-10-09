@@ -23,7 +23,7 @@
     const helpfulLinks = [
         { name: "Terms & Conditions", href: "#" },
         { name: "Privacy Policy", href: "#" },
-        { name: "Payment Policy", href: "#" },
+        { name: "Payment Policy", href: "#PaymentPolicy" },
     ];
     
     // --- Contact Data ---
