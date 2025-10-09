@@ -31,7 +31,7 @@
   
   {#if showScrollTop}
     <button
-      class="fixed bottom-6 right-6 bg-blue-500 text-black px-4 py-2 rounded shadow-lg hover:bg-blue-600 transition"
+      class="fixed bottom-6 right-6 bg-blue-500 text-black px-4 py-2 rounded-3xl shadow-lg hover:bg-blue-600 transition"
       on:click={scrollToTop}
       aria-label="Scroll to top"
     >
