@@ -1,8 +1,8 @@
 <script lang="ts">
     // --- 1. Navigation Links ---
     const navLinks = [
-        { name: 'About', href: '#about' },
-        { name: 'Pricing', href: '#pricing' },
+        { name: 'About', href: '/#about' },
+        { name: 'Pricing', href: '/#pricing' },
     ];
 
     // --- 2. Services Dropdown Data ---
@@ -80,7 +80,7 @@
             </div>
             
             <a 
-                href="#booking" 
+                href="/#booking" 
                 class="text-gray-700 hover:text-blue-600 transition-colors font-medium"
             >
                 Book now

@@ -3,7 +3,7 @@
 
     // 1. Company Column
     const companyLinks = [
-        { name: "About Us", href: "#about" },
+        { name: "About Us", href: "/#about" },
         { name: "News", href: "#" },
         { name: "Careers", href: "#" },
         { name: "FAQs", href: "#" },
@@ -23,11 +23,12 @@
     const helpfulLinks = [
         { name: "Terms & Conditions", href: "#" },
         { name: "Privacy Policy", href: "#" },
-        { name: "Payment Policy", href: "#PaymentPolicy" },
+        { name: "Payment Policy", href: "/payment-policy" },
     ];
     
     // --- Contact Data ---
-    const contactPhone = "+91 08069048802";
+    // FIX: Updated phone number to the one used for Golden Care policies
+    const contactPhone = "+91 99556 99982";
     const contactEmail = "support@goldencare.co.in"; 
 </script>
 
